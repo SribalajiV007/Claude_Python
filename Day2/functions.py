@@ -47,17 +47,18 @@ for mark in students:
 #Function exercise
 
 marks = [78, 92, 45, 88, 61]
-def is_even(mark):
-    if mark % 2 == 0:
-        return True
-    else:
-        return False
+def is_even(number):
+    return number % 2 == 0
     
 def calculate_average(numbers):
     return sum(numbers) / len(numbers)
 
-def find_largest(mar):
-    return max(mar)
+def find_largest(numbers):
+    largest = numbers[0]
+    for num in numbers:
+        if num > largest:
+            largest = num
+    return largest
 
 print(is_even(88))              
 print(is_even(45))              
