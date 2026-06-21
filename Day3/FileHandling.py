@@ -6,7 +6,7 @@ file.close()
 
 #use with which closes automatically:
 
-with open("notes.txt", "w") as file:
+with open("d:/Claude_Python/Day3/notes.txt", "w") as file:
     file.write("Hello Sri!\n")
     file.write("This is your first file.\n")
 
@@ -25,3 +25,9 @@ with open("notes.txt","r") as file:
 with open("notes.txt", "r") as file:
     lines = file.readlines()
     print(lines)  # ['Hello Sri!\n', 'This is your first file.\n']
+
+
+#Appending to a file
+with open("notes.txt", "a") as file:
+    file.write("Adding a new line!\n")
+# existing content stays, new line added at bottom
