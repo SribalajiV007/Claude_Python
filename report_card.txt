@@ -1,0 +1,16 @@
+---- Sri ----
+Maths: 88 | Science: 92 | English: 78
+Average: 86.00 | Grade: B
+
+---- Raj ----
+Maths: 65 | Science: 70 | English: 60
+Average: 65.00 | Grade: C
+
+---- Priya ----
+Maths: 95 | Science: 89 | English: 97
+Average: 93.67 | Grade: A
+
+---- Arjun ----
+Maths: 45 | Science: 55 | English: 50
+Average: 50.00 | Grade: C
+
